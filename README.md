@@ -29,7 +29,7 @@ This repository contains several scripts designed to fetch, process, and store w
 - **How it works**: The script checks whether data retrieval from DynamoDB works correctly on the EC2 instance, which will eventually connect to a Streamlit dashboard for data visualizations.
 
 ## Requirements
-- Python 3.x
+- Python_version >= "3.9"
 - AWS SDK for Python (`boto3`)
 - Streamlit (for dashboard integration)
 - Jupyter Notebook (for data exploration)
